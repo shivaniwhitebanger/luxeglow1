@@ -1,0 +1,6 @@
+{
+  "name": "ÉLIXIR BEAUTÉ — Luxury Cosmetics & High-Science Botanicals",
+  "description": "A premier luxury cosmetics e-commerce atelier featuring ~100 curated skincare, makeup, perfumes, and beauty rituals with shopping cart, wishlist, secure checkout, and full admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

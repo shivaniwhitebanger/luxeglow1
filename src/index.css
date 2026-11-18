@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blush: #F6E5E5;
+  --color-blush-50: #FCF6F6;
+  --color-blush-100: #F6E5E5;
+  --color-blush-200: #ECC7C7;
+  --color-beige: #E8D5C4;
+  --color-beige-light: #F4EBE3;
+  --color-cream: #FFF9F3;
+  --color-cream-surface: #FDF4EB;
+  --color-rosegold: #B76E79;
+  --color-rosegold-dark: #9E5863;
+  --color-rosegold-light: #D697A0;
+  --color-brown: #493638;
+  --color-brown-muted: #745C5F;
+  --color-brown-dark: #322325;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    color: var(--color-brown);
+    background-color: var(--color-cream);
+  }
+
+  ::selection {
+    background-color: rgba(183, 110, 121, 0.25);
+    color: #493638;
+  }
+}
+
+/* Custom scrollbars for drawers and tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF9F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8D5C4;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B76E79;
+}
